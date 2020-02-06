@@ -1,0 +1,275 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Custom Properties, update these for your own design */
+
+:root {
+    --ff-primary: 'Lato', sans-serif;
+    
+    --fw-reg: 400;
+    --fw-bold: 900;
+
+
+    --clr-light: #FFF;
+    --clr-primary: #20639B;
+    --clr-dark: #173F5F;
+    --clr-accent: #3CAEA3;
+    
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+}
+
+/* General styles */
+
+body {
+    background: var(--clr-light);
+    color: var(--clr-dark);
+    margin: 0;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    line-height: 1.6;
+    text-align: center;
+}
+
+
+
+
+.nav {
+    border: none;
+}
+
+
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-item{
+    padding: 1em 0;
+    border-bottom: 2px solid #C3CFD9;
+}
+
+.top {
+    border-top: 2px solid #C3CFD9;
+}
+
+
+
+.logo{
+    margin: auto 0;
+    margin-left: 0;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--clr-dark);
+}
+
+li a{
+    color: var(--clr-primary);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+li a:hover {
+    border-bottom: none;
+}
+
+/* Introduction */
+
+.section-1{
+    margin-top: 5em;
+    border-bottom: 3px solid red;
+}
+
+.intro-text{
+    display: grid;
+    font-weight: 300;
+
+}
+
+.intro-name{
+    color: #F6D55C;
+    font-size: 1.8em;
+    text-transform: uppercase;
+
+}
+
+.img {
+    width: 80%;
+}
+
+.img-logo {
+    width: 75%;
+}
+
+
+.te {
+    order: 0;
+}
+
+
+.list-sec{
+    display: grid;
+}
+
+.list {
+    display: grid;
+    text-transform: uppercase;
+    list-style: none;
+    font-size: 2em;
+    padding: 0;
+}
+
+.fa-guitar, .fa-blog, .fa-music, .fa-guitar {
+    order: -2;
+}
+.list-icon{
+    order: 1;
+}
+
+.fas {
+    font-size: 1.3em;
+    margin-top: 0.5em;
+}
+
+.list-icon {
+    border-bottom: 5px solid rgb(230, 229, 229);
+    margin: 0.2em 0;
+}
+
+.end-section {
+    margin-bottom: 2em;
+}
+
+.intro-end-text{
+    margin: 0;
+    padding: 0
+}
+
+
+
+.intro-name {
+    font-weight: 700;
+}
+
+
+
+
+
+
+@media (min-width: 1090px) {
+
+    .img-logo{
+        max-width: 25%;
+    }
+
+    .img {
+        width: 20%;
+    }
+
+    .intro-name{
+        color: #F6D55C;
+        font-size: 1.8em;
+        background-color: var(--clr-primary);
+        text-transform: uppercase;
+    }
+
+ 
+
+    .img-logo{
+        display: grid;
+    }
+
+    .intro-name{
+        padding: 0.2em;
+    }
+
+    .intro-text{
+        margin-bottom: 2em;
+    }
+
+    .intro-header{
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo{
+        margin-left: 1em;
+        font-size: 1.5em;
+        background-color: var(--clr-light);
+        font-size: 2em;
+        letter-spacing: 3px;
+    }
+
+    .fa-guitar, .fa-blog, .fa-music, .fa-guitar {
+        order: 1
+    }
+
+    .list-icon{
+        order: 0;
+    }
+
+    .list {
+        display: flex;
+        justify-content: space-evenly;
+        text-transform: uppercase;
+        list-style: none;
+        font-size: 2em;
+    }
+
+    .nav {
+        border-bottom: 1px solid #C3CFD9;
+    }
+
+    .navvy{
+        width: 500px;
+        display: flex;
+        justify-content: space-around;
+        margin: auto 0;
+
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item{
+    border: none;
+}
+
+li a:hover {
+    border-bottom: 2px solid #C3CFD9;
+    padding-bottom: 0.5em;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
