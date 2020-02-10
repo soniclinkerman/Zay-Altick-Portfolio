@@ -74,17 +74,25 @@ li a{
     color: var(--clr-primary);
     text-decoration: none;
     text-transform: uppercase;
+    -webkit-transition: color 2s ease-in;
 }
 
 li a:hover {
     border-bottom: none;
+    color: red;
+}
+
+.section-1, .section-2{
+    border-bottom: 3px solid #3CAEA3;
+
 }
 
 /* Introduction */
 
+
+
 .section-1{
     margin-top: 5em;
-    border-bottom: 3px solid red;
 }
 
 .intro-text{
@@ -129,6 +137,8 @@ li a:hover {
 .fa-guitar, .fa-blog, .fa-music, .fa-guitar {
     order: -2;
 }
+
+
 .list-icon{
     order: 1;
 }
@@ -158,6 +168,44 @@ li a:hover {
     font-weight: 700;
 }
 
+/* Section2 */
+
+.section-2{
+
+    border-top: 3px solid #173F5F;
+}
+
+.section-2-title{
+    text-transform: uppercase;
+}
+
+.music-img {
+ margin-bottom: 1em;
+}
+
+.music-split{
+    padding: 1em;
+}
+
+
+.section-2-btn{
+    color: #3CAEA3;
+    font-size: 1em;
+    background-color: #FFF;
+    text-transform: capitalize;
+    padding: 1em;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 1px solid rgb(216, 216, 216);
+}
+
+.section-2-btn:hover{
+
+    color: #FFF;
+    background-color: #3CAEA3;
+}
+
 
 
 
@@ -168,20 +216,12 @@ li a:hover {
     .img-logo{
         max-width: 25%;
     }
-
-    .img {
-        width: 20%;
-    }
-
     .intro-name{
         color: #F6D55C;
         font-size: 1.8em;
         background-color: var(--clr-primary);
         text-transform: uppercase;
     }
-
- 
-
     .img-logo{
         display: grid;
     }
@@ -247,6 +287,19 @@ li a:hover {
 li a:hover {
     border-bottom: 2px solid #C3CFD9;
     padding-bottom: 0.5em;
+}
+
+/* Section-2 */
+
+.music-2-split{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section-2-body {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 2em;
 }
 
 }
