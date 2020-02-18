@@ -34,6 +34,7 @@ body {
     font-size: var(--fs-body);
     line-height: 1.6;
     text-align: center;
+    letter-spacing: 1px;
 }
 
 
@@ -82,14 +83,12 @@ li a:hover {
     color: red;
 }
 
-.section-1, .section-2{
+.section-1, .section-2, .section-3, .section-4{
     border-bottom: 3px solid #3CAEA3;
 
 }
 
 /* Introduction */
-
-
 
 .section-1{
     margin-top: 5em;
@@ -170,7 +169,7 @@ li a:hover {
 
 /* Section2 */
 
-.section-2{
+.section-2, .section-3, .section-4{
 
     border-top: 3px solid #173F5F;
 }
@@ -198,6 +197,7 @@ li a:hover {
     cursor: pointer;
     transition: 0.3s;
     border: 1px solid rgb(216, 216, 216);
+    margin-bottom: 2em;
 }
 
 .section-2-btn:hover{
@@ -207,7 +207,88 @@ li a:hover {
 }
 
 
+/* Section 3 */
 
+.section-3-change{
+    display: inline;
+}
+
+.section-3-subhead{
+    font-weight: 300;
+    font-size: 2.5em;
+}
+
+.end {
+    margin-bottom: 3em;
+}
+
+.DGB-Logo{
+    width: 50%;
+}
+.img-sm{
+    width: 50%;
+
+}
+
+.img-sm{
+    border: 2px solid lightgray;
+    width: 300px;
+    object-fit: cover;
+    height: 250px;
+}
+
+.img-sm:hover{
+    
+    opacity: 50%;
+    cursor: pointer;
+    background: red;
+}
+
+.DGB-Logo-pic{
+    width: 15%;
+    margin-bottom: 3em;
+}
+
+/* Section 4 */
+
+.section-4-body{
+    width: 600px;
+    margin: auto;
+}
+
+.section-4-body-2{
+    font-size: 1.5em;
+}
+
+/* Section 5 */
+
+.section-5-body{
+    width: 60%;
+    margin: auto;
+}
+
+
+footer {
+    border-top: 2px solid black;
+    display: flex;
+    padding-right: 1em;
+}
+
+
+
+.social-list {
+    margin: 0 auto;
+    padding: 1em 0;
+}
+
+.fab {
+    font-size: 2.5em;
+    
+}
+
+.fa-twitter-square{
+    color: rgb(93, 193, 233);
+}
 
 
 
@@ -302,7 +383,15 @@ li a:hover {
     margin-bottom: 2em;
 }
 
+/* Section-3 */
+
+.section-3-change{
+    display: flex;
+    justify-content: center;
 }
+
+}
+
 
 
 
