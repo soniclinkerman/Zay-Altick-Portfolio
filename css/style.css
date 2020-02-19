@@ -75,12 +75,11 @@ li a{
     color: var(--clr-primary);
     text-decoration: none;
     text-transform: uppercase;
-    -webkit-transition: color 2s ease-in;
 }
 
 li a:hover {
     border-bottom: none;
-    color: red;
+    color: var(--ff-primary)
 }
 
 .section-1, .section-2, .section-3, .section-4{
