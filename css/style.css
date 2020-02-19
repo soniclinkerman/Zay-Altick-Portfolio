@@ -101,9 +101,13 @@ li a:hover {
 }
 
 .intro-name{
+    padding: 0.7em 1em;
+    border-radius: 0.5em;
+    background-color: var(--clr-primary);
     color: #F6D55C;
     font-size: 1.8em;
     text-transform: uppercase;
+    font-weight: 700;
 
 }
 
@@ -112,12 +116,16 @@ li a:hover {
 }
 
 .img-logo {
-    width: 75%;
+    width: 50%;
+    border-radius: 3em;
 }
 
 
 .te {
     order: 0;
+    margin: 0;
+    margin-bottom: 1em;
+    text-align: center;
 }
 
 
@@ -159,12 +167,6 @@ li a:hover {
 .intro-end-text{
     margin: 0;
     padding: 0
-}
-
-
-
-.intro-name {
-    font-weight: 700;
 }
 
 /* Section2 */
@@ -290,21 +292,45 @@ footer {
 @media (min-width: 1090px) {
 
     .img-logo{
-        max-width: 25%;
+        max-width: 20%;
+        border-radius: 50%;
+        position: relative;
+        right: 7.5em;
     }
-    .intro-name{
-        color: #F6D55C;
-        font-size: 1.8em;
-        background-color: var(--clr-primary);
-        text-transform: uppercase;
-    }
-    .img-logo{
-        display: grid;
+
+    .intro-end-text{
+        width: 900px;
+        margin: auto;
     }
 
     .intro-name{
-        padding: 0.2em;
+        color: #F6D55C;
+        text-transform: uppercase;
+        padding: 1em;
+        padding-right: 9em;
+        border-radius: 0.5em;
+        position: relative;
+        top: 1em;
+   
     }
+
+    .te {
+        order: 0;
+        margin: 0;
+        text-align: left;
+        margin-left: 1em;
+    }
+
+    .te {
+        font-size: 1.5em;
+    }
+
+    .text-header {
+        position: relative;
+        top: 3em;
+    }
+    
+  
 
     .intro-text{
         margin-bottom: 2em;
@@ -313,6 +339,8 @@ footer {
     .intro-header{
         display: flex;
         justify-content: center;
+        margin-bottom: 9em;
+    
     }
 
     .logo{
