@@ -1,0 +1,44 @@
+.section-2-music{
+    margin-top: 1.5em;
+}
+
+.music-top{
+    border-top: 0;
+}
+
+.music-end {
+    border-top: 1px solid black;
+    margin-top: 2em;
+}
+
+.social-list {
+    margin-top: 2em;
+}
+
+
+@media (min-width: 1090px) {
+
+  
+    .music-title{
+        margin-right: 10em;
+        margin-bottom: 0.2em;
+    }
+    
+    .music-img-1 {
+        width: 20%;
+    }
+
+    .music-text{
+        width: 800px;
+        margin: 2em auto;
+    }
+
+    .music-site {
+        margin-bottom: 2em;
+    }
+
+
+
+    
+
+}
