@@ -2,6 +2,16 @@
     margin-top: 1.5em;
 }
 
+.music-body{
+    width: 450px;
+    margin: 2em auto;
+
+}
+
+.music-img-1 {
+    width: 80%;
+}
+
 .music-top{
     border-top: 0;
 }
@@ -18,19 +28,20 @@
 
 @media (min-width: 1090px) {
 
+    .music-body{
+        width: 800px;
+
+    
+    }
+
   
     .music-title{
-        margin-right: 10em;
+        margin-right: 15.5em;
         margin-bottom: 0.2em;
     }
     
     .music-img-1 {
-        width: 20%;
-    }
-
-    .music-text{
-        width: 800px;
-        margin: 2em auto;
+        width: 30%;
     }
 
     .music-site {
