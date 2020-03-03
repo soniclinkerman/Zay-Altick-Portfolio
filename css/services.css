@@ -1,0 +1,40 @@
+.services-header{
+    text-transform: uppercase;
+    margin-bottom: 1.5em;
+}
+
+.services-sec-1{
+    border: none;
+}
+
+.services-music{
+    font-weight: 400;
+}
+
+.music-link{
+    color: #173F5F;
+}
+
+.services-website, .services-contact-head{
+    text-transform: uppercase;
+}
+
+.services-site-head{
+    font-weight: 600;
+}
+
+.services-contact-head{
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+.mail {
+    color: black;
+    margin: 0;
+    font-size: 5em;
+    cursor: pointer;
+}
+
+.service-end{
+    margin-bottom: 2em;
+}
