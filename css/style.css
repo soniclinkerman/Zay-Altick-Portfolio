@@ -287,6 +287,19 @@ footer {
     color: rgb(93, 193, 233);
 }
 
+.about-text{
+    margin: 2em auto;
+}
+
+.about-link {
+    color: rgb(118, 176, 223);
+}
+
+.about-link:hover {
+    color: rgb(93, 193, 233);
+}
+
+
 
 
 @media (min-width: 1090px) {
@@ -411,6 +424,11 @@ li a:hover {
 .section-3-change{
     display: flex;
     justify-content: center;
+}
+
+.about-text{
+    width: 800px;
+    margin: 2em auto;
 }
 
 }
