@@ -1,0 +1,13 @@
+
+            <nav class="nav">
+
+                <ul class="nav-list">
+                    <a href="#" class="logo"><b>Zay Altick</b></a>
+
+                    <div class="navvy">
+                    <li class="nav-item top"><a href="music.html" class="nav__link">Music</a></li>
+                    <li class="nav-item"><a href="my-services.html" class="nav__link">My Services</a></li>
+                    <li class="nav-item"><a href="about-me.html" class="nav__link">About me</a></li>
+                </div>
+                </ul>
+            </nav> 
