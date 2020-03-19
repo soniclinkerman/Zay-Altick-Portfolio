@@ -1,3 +1,10 @@
+.work{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 1em;
+
+}
+
 .services-header{
     text-transform: uppercase;
     margin-bottom: 1.5em;
@@ -19,8 +26,14 @@
     text-transform: uppercase;
 }
 
-.services-site-head{
+.portfolio-title{
     font-weight: 600;
+    display: grid;
+    grid-column: 1/ -1;
+}
+
+.project-name{
+    text-transform: capitalize;
 }
 
 .services-contact-head{

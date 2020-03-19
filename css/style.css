@@ -240,10 +240,6 @@ li a:hover {
 .DGB-Logo{
     width: 50%;
 }
-.img-sm{
-    width: 50%;
-
-}
 
 .img-sm{
     border: 2px solid lightgray;
@@ -344,6 +340,7 @@ footer {
   }
   
   
+  
   .topnavigation a:hover {
     color: #F6D55C;
   }
@@ -355,6 +352,20 @@ footer {
   .nav__link {
       border-top: 1px solid white;
   }
+
+
+
+  .portfolio-card {
+    box-shadow: 0 0 1em rgba(0,0,0,.25);
+    padding: 1em;
+    background: white;
+}
+
+.project-list{
+    list-style: none;
+    padding: 0
+}
+
 
   /* Hamburger */
     
